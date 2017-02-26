@@ -12,7 +12,7 @@ app.get('/', function (req, res) { res.status(200).send('Hello world!'); });
  
 app.listen(port, function () {
   console.log('Listening on port ' + port);
-}
+});
 
 app.post('/hello', function (req, res, next) {
   var userName = req.body.user_name;
