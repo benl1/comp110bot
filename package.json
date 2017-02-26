@@ -10,4 +10,7 @@
     "body-parser": "^1.x.x",
     "request": "2.56.x"
   }
+  "scripts": {
+	"start": "app.js"
+  }
 }
