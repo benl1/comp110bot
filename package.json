@@ -1,12 +1,13 @@
 {
-"name": "comp110bot",
-"version": "0.0.1",
-"description": "bot for comp110 team"
-"main": "app.js",
-"author": "Ben Levine",
-"dependencies":{
-"express:" "^4.x.x",
-"request": "2.56.x"
-	}
-
+  "name": "comp110bot",
+  "version": "0.0.1",
+  "description": "comp110bot",
+  "main": "app.js",
+  "author": "Benjamin Levine",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.x.x",
+    "body-parser": "^1.x.x",
+    "request": "2.56.x"
+  }
 }
